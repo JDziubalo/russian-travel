@@ -135,6 +135,34 @@
     font-weight: 400;
 }
 
+.photo-grid {
+    margin: auto;
+    margin-top: 92px;
+    /* min-height: 671px; */
+    outline: 3px solid pink;
+}
+
+.photo-grid__images {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 16px;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
+    /* gap: 16px; */
+    /* max-width: 1184px; */
+}
+
+.photo-grid__image {
+    width: 284px;
+    height: 213px;
+}
+
+
+
+
 
 
 
