@@ -1,0 +1,25 @@
+.footer {
+  margin: auto;
+  box-sizing: border-box;
+  padding: 92px 0 24px 0;
+  max-width: 93%;
+}
+
+@media (max-width:1024px) {
+  .footer {
+    width: 90%;
+  }
+}
+
+@media (max-width:768px) {
+  .footer {
+    padding: 88px 0 24px 0;
+    width: 94%;
+  }
+}
+
+@media (max-width:350px) {
+  .footer {
+    padding: 64px 16px 24px 16px;
+  }
+}

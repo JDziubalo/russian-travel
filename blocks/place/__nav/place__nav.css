@@ -1,0 +1,11 @@
+.place__nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+@media (max-width: 525px) {
+  .place__nav {
+    margin: 32px 0 32px 16px;
+  }
+}

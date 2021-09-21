@@ -1,0 +1,23 @@
+.footer__link-item {
+  display: inline-block;
+  margin-right: 18px;
+}
+
+@media (max-width: 721px) {
+  .footer__link-item {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer__link-item {
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 350px) {
+  .footer__link-item {
+    display: block;
+    margin-bottom: 32px;
+  }
+}

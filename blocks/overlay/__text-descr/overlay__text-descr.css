@@ -1,0 +1,27 @@
+.overlay__text-descr {
+  max-width: 360px;
+  margin: 0;
+  margin-top: 32px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+  z-index: 2;
+}
+
+@media (max-width: 555px) and (min-width: 321px) {
+  .overlay__text-descr {
+    font-size: 3vw;
+    line-height: 3vw;
+    max-width: 65%;
+  }
+}
+
+@media (max-width: 320px) {
+  .overlay__text-descr {
+    margin-top: 16px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

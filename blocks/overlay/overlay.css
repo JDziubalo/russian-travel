@@ -1,0 +1,24 @@
+.overlay {
+  box-sizing:border-box;
+  padding: 92px 0 0 0;
+  width: 93% ;
+  margin: auto;
+}
+
+@media (max-width: 1024px) {
+  .overlay {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .overlay {
+    padding: 90px 0 0 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .overlay {
+    padding: 66px 0 0 0;
+  }
+}

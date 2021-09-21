@@ -1,0 +1,28 @@
+.photo__flex {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+@media (max-width: 1024px) {
+  .photo__flex {
+    gap: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .photo__flex {
+    gap: 16px;
+  }
+}
+
+@media (max-width: 320px) {
+  .photo__flex {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+}
