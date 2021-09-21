@@ -13,4 +13,4 @@
 * адаптивная верстка
 
 
-ссылку на GitHub Pages.
+ссылка на GitHub Pages: https://jdziubalo.github.io/russian-travel/
