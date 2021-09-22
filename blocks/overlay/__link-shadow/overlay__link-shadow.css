@@ -11,6 +11,6 @@
   z-index: 1;
 }
 
-.overlay__wrap:hover .overlay__link-shadow {
+.overlay:hover .overlay__link-shadow {
   opacity: .7;
  }

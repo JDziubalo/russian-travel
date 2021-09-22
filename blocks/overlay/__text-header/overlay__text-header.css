@@ -6,6 +6,7 @@
   font-size: 72px;
   line-height: 76px;
   text-align: center;
+  align-self: center;
   text-rendering: optimizeLegibility;
   color: #FFFFFF;
   z-index: 2;
@@ -13,7 +14,7 @@
 
 @media (max-width: 768px) {
   .overlay__text-header {
-    margin-top: 14%;
+    margin-top: 15%;
   }
 }
 

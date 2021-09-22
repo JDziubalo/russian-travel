@@ -41,13 +41,10 @@
 @import url('../blocks/place/__parapraph-span/place__paragraph-span.css');
 
 @import url('../blocks/overlay/overlay.css');
-@import url('../blocks/overlay/__wrap/overlay__wrap.css');
-@import url('../blocks/overlay/__text-wrap/overlay__text-wrap.css');
 @import url('../blocks/overlay/__link-shadow/overlay__link-shadow.css');
 @import url('../blocks/overlay/__text-header/overlay__text-header.css');
 @import url('../blocks/overlay/__text-descr/overlay__text-descr.css');
 @import url('../blocks/overlay/__link/overlay__link.css');
-@import url('../blocks/overlay/__link-bg/overlay__link-bg.css');
 
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__content/footer__content.css');

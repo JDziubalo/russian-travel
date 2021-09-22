@@ -1,24 +1,37 @@
 .overlay {
-  box-sizing:border-box;
-  padding: 92px 0 0 0;
   width: 93% ;
   margin: auto;
+  margin-top: 92px;
+  min-height: 740px;
+  position: relative;
+  display: flex;
+  background: url('../../images/overlay_bg.png') center center/cover no-repeat;
 }
 
 @media (max-width: 1024px) {
   .overlay {
     width: 100%;
+    min-height: 640px;
   }
 }
 
 @media (max-width: 768px) {
   .overlay {
-    padding: 90px 0 0 0;
+    margin-top: 90px;
+    min-height: 480px;
   }
 }
 
+@media  (min-width: 765px) and (max-width: 321px) {
+  .overlay {
+    min-height: 62%;
+  }
+}
+
+
 @media (max-width: 320px) {
   .overlay {
-    padding: 66px 0 0 0;
+    margin-top: 66px;
+    min-height: 200px;
   }
 }
