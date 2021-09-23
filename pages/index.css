@@ -29,14 +29,16 @@
 @import url('../blocks/photo/__flex-image/photo__flex-image.css');
 
 @import url('../blocks/place/place.css');
-@import url('../blocks/place/__grid/place__grid.css');
-@import url('../blocks/place/__head/place__head.css');
-@import url('../blocks/place/__nav/place__nav.css');
-@import url('../blocks/place/__url/place__url.css');
-@import url('../blocks/place/__link/place__link.css');
-@import url('../blocks/place/__image/place__image.css');
-@import url('../blocks/place/__descr/place__descr.css');
-@import url('../blocks/place/__paragraph/place__paragraph.css');
+
+@import url('../blocks/card/card.css');
+@import url('../blocks/card/__head/card__head.css');
+@import url('../blocks/card/__nav/card__nav.css');
+@import url('../blocks/card/__url/card__url.css');
+@import url('../blocks/card/__link/card__link.css');
+@import url('../blocks/card/__image/card__image.css');
+@import url('../blocks/card/__descr/card__descr.css');
+@import url('../blocks/card/__paragraph/card__paragraph.css');
+
 
 @import url('../blocks/overlay/overlay.css');
 @import url('../blocks/overlay/__text-header/overlay__text-header.css');
@@ -44,7 +46,6 @@
 @import url('../blocks/overlay/__link/overlay__link.css');
 
 @import url('../blocks/footer/footer.css');
-@import url('../blocks/footer/__content/footer__content.css');
 @import url('../blocks/footer/__links/footer__links.css');
 @import url('../blocks/footer/__link-item/footer__link-item.css');
 @import url('../blocks/footer/__link/footer__link.css');

@@ -1,0 +1,8 @@
+.card__paragraph {
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.card__paragraph:last-child {
+  margin-bottom: 0px;
+}

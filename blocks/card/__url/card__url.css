@@ -1,4 +1,4 @@
-.place__url {
+.card__url {
   margin: 0;
   font-weight: 400;
   font-size: 12px;
@@ -10,7 +10,7 @@
 }
 
 @media (max-width: 890px) {
-  .place__url {
+  .card__url {
     line-height: 12px;
   }
 }

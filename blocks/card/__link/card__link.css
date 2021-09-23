@@ -1,4 +1,4 @@
-.place__link {
+.card__link {
   display: inline-block;
   margin-top: 12px;
   font-weight: 400;
@@ -10,7 +10,7 @@
   color: #FFFFFF;
 }
 
-.place__link:hover {
-  opacity: 0.6;
+.card__link:hover {
+  opacity: 0.8;
 }
 
