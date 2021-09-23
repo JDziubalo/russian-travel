@@ -1,6 +1,6 @@
 .place {
   box-sizing:border-box;
-  padding: 60px 0 0 0;
+  padding: 12px 0 0 0;
   width: 77%;
   margin: auto;
 }
@@ -14,13 +14,13 @@
 @media (max-width: 768px) {
   .place {
     width: 94%;
-    padding: 56px 0 0 0;
+    padding: 15px 0 0 0;
   }
 }
 
 @media (max-width: 525px) {
   .place {
     width: 100%;
-    padding: 14px 0 0 0;
+    padding: 15px 0 0 0;
   }
 }

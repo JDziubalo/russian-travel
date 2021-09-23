@@ -9,7 +9,7 @@
 @import url('../blocks/header/__langs/header__langs.css');
 @import url('../blocks/header/__lang-items/header__lang-items.css');
 @import url('../blocks/header/__lang-item/header__lang-item.css');
-@import url('../blocks/header/__lang-item/_underline/header__lang-item_underline.css');
+@import url('../blocks/header/__lang-item/_active/header__lang-item_active.css');
 
 @import url('../blocks/lead/lead.css');
 @import url('../blocks/lead/__title/lead__title.css');
@@ -30,7 +30,6 @@
 
 @import url('../blocks/place/place.css');
 @import url('../blocks/place/__grid/place__grid.css');
-@import url('../blocks/place/__row/place__row.css');
 @import url('../blocks/place/__head/place__head.css');
 @import url('../blocks/place/__nav/place__nav.css');
 @import url('../blocks/place/__url/place__url.css');
@@ -38,10 +37,8 @@
 @import url('../blocks/place/__image/place__image.css');
 @import url('../blocks/place/__descr/place__descr.css');
 @import url('../blocks/place/__paragraph/place__paragraph.css');
-@import url('../blocks/place/__parapraph-span/place__paragraph-span.css');
 
 @import url('../blocks/overlay/overlay.css');
-@import url('../blocks/overlay/__link-shadow/overlay__link-shadow.css');
 @import url('../blocks/overlay/__text-header/overlay__text-header.css');
 @import url('../blocks/overlay/__text-descr/overlay__text-descr.css');
 @import url('../blocks/overlay/__link/overlay__link.css');

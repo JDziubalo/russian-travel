@@ -1,6 +1,7 @@
 .place__grid {
   width: 100%;
   display: grid;
+  margin-top: 80px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   column-gap: 40px;
@@ -16,6 +17,7 @@
 @media (max-width: 890px) {
   .place__grid {
     column-gap: 28px;
+    margin-top: 73px;
   }
 }
 
@@ -28,5 +30,6 @@
 @media (max-width: 525px) {
   .place__grid {
     display: block;
+    margin-top: 50px;
   }
 }
