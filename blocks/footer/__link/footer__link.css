@@ -18,6 +18,12 @@
   }
 }
 
+@media (max-width: 373px) {
+  .footer__link {
+    font-size: 9px;
+  }
+}
+
 @media (max-width: 350px) {
   .footer__link {
     font-size: 24px;
